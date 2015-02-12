@@ -14,7 +14,7 @@ var gulp        = require('gulp'),
     argv        = require('yargs').argv;
 
 gulp.task('push',
-shell.task(['echo git add -A && git commit -m "' + argv.m + '" && git push'])
+shell.task(['git add -A && git commit -m "' + argv.m + '" && git push'])
 );
 
 gulp.task('jade', function () {
