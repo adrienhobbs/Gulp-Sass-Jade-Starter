@@ -9,7 +9,13 @@ var gulp        = require('gulp'),
     jadeDir     = "partials",
     sassDir     = './sass',
     homeDir     = "./",
-    jsDir       = "js";
+    jsDir       = "js",
+    shell       = require('gulp-shell'),
+    argv        = require('yargs').argv;
+
+gulp.task('push',
+shell.task(['echo git add -A && git commit -m "' + argv.m + '" && git push'])
+);
 
 gulp.task('jade', function () {
   return gulp.src(jadeDir + "/**/*.jade")
