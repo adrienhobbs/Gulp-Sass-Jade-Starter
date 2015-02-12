@@ -1,7 +1,7 @@
 {
-  "name": "video",
+  "name": "Gulp-Starter",
   "version": "1.0.0",
-  "description": "",
+  "descripton": "",
   "main": "gulpfile.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -10,7 +10,10 @@
   "license": "ISC",
   "devDependencies": {
     "gulp": "^3.8.11",
+    "gulp-browserify": "^0.5.1",
     "gulp-notify": "^2.2.0",
-    "gulp-ruby-sass": "^1.0.0-alpha.3"
+    "gulp-rename": "^1.2.0",
+    "gulp-ruby-sass": "^1.0.0-alpha.3",
+    "gulp-uglifyjs": "^0.6.0"
   }
 }
