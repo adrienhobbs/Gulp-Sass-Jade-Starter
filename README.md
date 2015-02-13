@@ -1,12 +1,12 @@
 # A Gulp Project Starter
 
-**Includes the following :
+**Includes the following** :
 
-*- gulp-jade
-*- gulp-notify
-*- gulp-ruby-sass
-*- gulp-livereload
-*- gulp-browserify
-*- gulp-rename
-*- gulp-uglify
-*- gulp-shell
+- gulp-jade
+- gulp-notify
+- gulp-ruby-sass
+- gulp-livereload
+- gulp-browserify
+- gulp-rename
+- gulp-uglify
+- gulp-shell
