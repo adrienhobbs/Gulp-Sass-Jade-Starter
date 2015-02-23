@@ -8,8 +8,8 @@ var jadeDir     = "partials",
     sass        = require('gulp-ruby-sass'),
     livereload  = require('gulp-livereload'),
     browserify  = require('gulp-browserify'),
-    rename      = require('./node_modules/gulp-rename'),
-    uglify      = require('./node_modules/gulp-uglifyjs'),
+    rename      = require('gulp-rename'),
+    uglify      = require('gulp-uglifyjs'),
     shell       = require('gulp-shell'),
     argv        = require('yargs').argv;
 
